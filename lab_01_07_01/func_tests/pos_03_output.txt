@@ -1,0 +1,4 @@
+Approximate function value: 0.141120
+Exact function value: 0.141120
+Absolute error: 0.000000
+Relative error: 0.000003

@@ -1,0 +1,1 @@
+./app.exe o pos_10_in1.txt pos_10_out.txt

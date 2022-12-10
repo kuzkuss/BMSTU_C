@@ -1,0 +1,2 @@
+Enter amount of elements:
+Incorrect amount of elements

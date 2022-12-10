@@ -1,0 +1,9 @@
+Enter amount of elements:
+Source array:
+[2]
+Enter memory allocation method:
+1 - Estimation of the maximum possible array size and memory allocation with a margin
+2 - Making the first call to the function to find out the required size of the array, allocating memory and calling the function again
+Enter value to insert:
+Result:
+[2, 0]

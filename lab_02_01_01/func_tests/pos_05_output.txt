@@ -1,0 +1,1 @@
+Product of odd elements = 105

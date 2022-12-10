@@ -1,0 +1,1 @@
+./app.exe pos_11_in.txt pos_11_out.txt descending

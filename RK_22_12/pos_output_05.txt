@@ -1,0 +1,10 @@
+Enter the number of sentences:
+Enter sentence:
+Enter sentence:
+Enter sentence:
+Result:
+Hgvsdc jscbh.
+ - YES
+Jskdvjbn ksdjvb ksdjvb.
+ - YES
+Jkdvb kchbd jsdcbh jhdcb. - NO

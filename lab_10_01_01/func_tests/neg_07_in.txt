@@ -1,0 +1,12 @@
+bread
+2
+50
+cheese
+afd
+180
+porridge
+1
+70
+butter
+1
+100

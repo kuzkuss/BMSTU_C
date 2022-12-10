@@ -1,0 +1,2 @@
+Volume of the resulting mixture: 100.000000
+Temperature of the resulting mixture: 34.000000

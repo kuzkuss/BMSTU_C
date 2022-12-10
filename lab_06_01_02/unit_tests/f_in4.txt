@@ -1,0 +1,9 @@
+pencil
+fdv
+20
+book
+20
+30
+box
+50
+100

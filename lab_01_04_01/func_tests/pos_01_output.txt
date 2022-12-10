@@ -1,0 +1,2 @@
+Entrance number: 1
+Floor number: 6

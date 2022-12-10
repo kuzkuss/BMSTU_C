@@ -1,0 +1,136 @@
+﻿Dr. Memory version 2.4.0 build 2 built on Aug 31 2021 04:11:37
+Windows version: WinVer=62;Rel=;Build=9200;Edition=CoreSingleLanguage
+Dr. Memory results for pid 6620: "app.exe"
+Application cmdline: "app.exe input.txt output.txt form iu7-21b"
+Recorded 124 suppression(s) from default C:\Program Files (x86)\Dr. Memory\bin64\suppress-default.txt
+
+Error #1: UNADDRESSABLE ACCESS beyond top of stack: reading 0x00000085efe8f800-0x00000085efe8f808 8 byte(s)
+# 0 .text                                   [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/pesect.c:230]
+# 1 _pei386_runtime_relocator               [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/pseudo-reloc.c:477]
+# 2 __tmainCRTStartup                       [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:269]
+# 3 .l_start                                [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:202]
+# 4 KERNEL32.dll!BaseThreadInitThunk       +0x19     (0x000007fe47bd1842 <KERNEL32.dll+0x1842>)
+Note: @0:00:00.657 in thread 6208
+Note: 0x00000085efe8f800 refers to 744 byte(s) beyond the top of the stack 0x00000085efe8fae8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #2: UNADDRESSABLE ACCESS beyond top of stack: reading 0x00000085efe8ea10-0x00000085efe8ea18 8 byte(s)
+# 0 .text                         [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/pesect.c:230]
+# 1 __mingw_vfscanf               [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/stdio/mingw_vfscanf.c:1616]
+# 2 fscanf                        [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 3 student_read                  [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 4 read_list                     [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 5 main                          [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+Note: @0:00:01.217 in thread 6208
+Note: 0x00000085efe8ea10 refers to 4072 byte(s) beyond the top of the stack 0x00000085efe8f9f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #3: UNADDRESSABLE ACCESS beyond top of stack: reading 0x00000085efe8e9d0-0x00000085efe8e9d8 8 byte(s)
+# 0 .text                         [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/pesect.c:230]
+# 1 __mingw_vfscanf               [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/stdio/mingw_vfscanf.c:1616]
+# 2 fscanf                        [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 3 student_read                  [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 4 read_list                     [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 5 main                          [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+Note: @0:00:01.247 in thread 6208
+Note: 0x00000085efe8e9d0 refers to 4136 byte(s) beyond the top of the stack 0x00000085efe8f9f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #4: UNADDRESSABLE ACCESS beyond top of stack: reading 0x00000085efe8ea10-0x00000085efe8ea18 8 byte(s)
+# 0 .text                         [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/pesect.c:230]
+# 1 __mingw_vfscanf               [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/stdio/mingw_vfscanf.c:1616]
+# 2 fscanf                        [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 3 student_read                  [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 4 read_list                     [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 5 main                          [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+Note: @0:00:01.397 in thread 6208
+Note: 0x00000085efe8ea10 refers to 4072 byte(s) beyond the top of the stack 0x00000085efe8f9f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #5: UNADDRESSABLE ACCESS beyond top of stack: reading 0x00000085efe8e9d0-0x00000085efe8e9d8 8 byte(s)
+# 0 .text                         [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/pesect.c:230]
+# 1 __mingw_vfscanf               [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/stdio/mingw_vfscanf.c:1616]
+# 2 fscanf                        [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 3 student_read                  [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 4 read_list                     [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 5 main                          [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+Note: @0:00:01.427 in thread 6208
+Note: 0x00000085efe8e9d0 refers to 4136 byte(s) beyond the top of the stack 0x00000085efe8f9f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #6: UNADDRESSABLE ACCESS beyond top of stack: reading 0x00000085efe8ea10-0x00000085efe8ea18 8 byte(s)
+# 0 .text                         [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/pesect.c:230]
+# 1 __mingw_vfscanf               [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/stdio/mingw_vfscanf.c:1616]
+# 2 fscanf                        [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 3 student_read                  [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 4 read_list                     [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 5 main                          [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+Note: @0:00:01.467 in thread 6208
+Note: 0x00000085efe8ea10 refers to 4072 byte(s) beyond the top of the stack 0x00000085efe8f9f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #7: UNADDRESSABLE ACCESS beyond top of stack: reading 0x00000085efe8e9d0-0x00000085efe8e9d8 8 byte(s)
+# 0 .text                         [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/pesect.c:230]
+# 1 __mingw_vfscanf               [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/stdio/mingw_vfscanf.c:1616]
+# 2 fscanf                        [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 3 student_read                  [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 4 read_list                     [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 5 main                          [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+Note: @0:00:01.487 in thread 6208
+Note: 0x00000085efe8e9d0 refers to 4136 byte(s) beyond the top of the stack 0x00000085efe8f9f8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #8: UNADDRESSABLE ACCESS beyond top of stack: reading 0x00000085efe8f8a0-0x00000085efe8f8a8 8 byte(s)
+# 0 .text                               [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/pesect.c:230]
+# 1 __pformat_int.isra.0                [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/stdio/mingw_pformat.c:707]
+# 2 __mingw_pformat                     [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/stdio/mingw_pformat.c:2598]
+# 3 __mingw_vfprintf                    [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/stdio/mingw_vfprintf.c:54]
+# 4 fprintf                             [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 5 print_student_to_file               [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 6 print_list_to_file                  [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+# 7 main                                [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:422]
+Note: @0:00:01.677 in thread 6208
+Note: 0x00000085efe8f8a0 refers to 8 byte(s) beyond the top of the stack 0x00000085efe8f8a8
+Note: instruction: or     $0x0000000000000000 (%rcx) -> (%rcx)
+
+Error #9: POSSIBLE LEAK 95 direct bytes 0x00000087f08b01c0-0x00000087f08b021f + 0 indirect bytes
+# 0 replace_malloc                    [d:\a\drmemory\drmemory\common\alloc_replace.c:2580]
+# 1 msvcrt.dll!malloc_crt
+# 2 msvcrt.dll!_setargv  
+# 3 msvcrt.dll!_getmainargs
+# 4 pre_cpp_init                      [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:161]
+# 5 msvcrt.dll!initterm  
+# 6 __tmainCRTStartup                 [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:259]
+# 7 .l_start                          [C:/_/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:202]
+# 8 KERNEL32.dll!BaseThreadInitThunk +0x19     (0x000007fe47bd1842 <KERNEL32.dll+0x1842>)
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+	Error #   1:      2
+	Error #   2:      2
+	Error #   3:      2
+	Error #   4:      2
+	Error #   5:      2
+	Error #   6:      2
+	Error #   7:      2
+	Error #   8:      4
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      8 unique,    18 total unaddressable access(es)
+      0 unique,     0 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      1 unique,     1 total,     95 byte(s) of possible leak(s)
+ERRORS IGNORED:
+      5 potential error(s) (suspected false positives)
+         (details: C:\Users\Тамара\AppData\Roaming\Dr. Memory\DrMemory-app.exe.6620.000\potential_errors.txt)
+      5 unique,     9 total,    218 byte(s) of still-reachable allocation(s)
+         (re-run with "-show_reachable" for details)
+Details: C:\Users\Тамара\AppData\Roaming\Dr. Memory\DrMemory-app.exe.6620.000\results.txt

@@ -1,0 +1,1 @@
+./a.exe neg_04_in.txt neg_04_out.txt f lsgh

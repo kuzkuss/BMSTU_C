@@ -1,0 +1,1 @@
+./app.exe o neg_04_in1.txt

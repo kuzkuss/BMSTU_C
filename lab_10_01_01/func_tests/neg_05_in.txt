@@ -1,0 +1,12 @@
+bread
+-2
+50
+cheese
+1
+180
+porridge
+1
+70
+butter
+1
+100

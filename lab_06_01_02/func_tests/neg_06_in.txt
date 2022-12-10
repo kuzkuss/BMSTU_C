@@ -1,0 +1,9 @@
+pencil
+12
+20
+book
+20
+javhd
+box
+50
+100
